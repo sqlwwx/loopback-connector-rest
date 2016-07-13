@@ -5,7 +5,7 @@
 
 var assert = require('assert');
 
-var DataSource = require('loopback-datasource-juggler').DataSource;
+var DataSource = require('loopback-datasource-jugglernext').DataSource;
 var ds = new DataSource(require('../lib/rest-connector'),
   {
     baseURL: 'http://localhost:3000',

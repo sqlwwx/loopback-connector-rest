@@ -5,7 +5,7 @@
 
 var assert = require('assert');
 
-var ModelBuilder = require('loopback-datasource-juggler').ModelBuilder;
+var ModelBuilder = require('loopback-datasource-jugglernext').ModelBuilder;
 var modelBuilder = new ModelBuilder();
 
 // simplier way to describe model

@@ -6,7 +6,7 @@
 var assert = require('assert');
 var should = require('should');
 
-var DataSource = require('loopback-datasource-juggler').DataSource;
+var DataSource = require('loopback-datasource-jugglernext').DataSource;
 
 var TEST_ADDRESS = /Bedford Ave.*, Brooklyn, NY 11211, USA/;
 
